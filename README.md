@@ -130,18 +130,18 @@ DATE_TIME=`date`
 # set all permissions
 chmod -R 777 /var/www/html
 cd /var/www/html
-wget https://raw.githubusercontent.com/awsdevopsteam/ngniex/master/ryu.jpg
+wget https://raw.githubusercontent.com/flovearth/42_ApplicationLoadBalancer/master/ryu.png
 # create a custom index.html file
 echo "<html>
 <head>
-    <title> Congratulations! You have created an instance from Launch Template</title>
+    <title> Congratulations Feyzullah Deniz! You have created an instance from Launch Template</title>
 </head>
 <body>
-    <h1>This web server is launched from launch template by AWSDevOps Team</h1>
+    <h1>This web server is launched from launch template by Feyzullah Deniz SARI</h1>
     <p>This instance is created at <b>$DATE_TIME</b></p>
     <p>Private IP address of this instance is <b>$PRIVATE_IP</b></p>
     <p>Public IP address of this instance is <b>$PUBLIC_IP</b></p>
-    <p><img src="ryu.jpg" alt="Oz Hakiki Cikolata Deryasi"</b></p>
+    <p><img src="ryu.png" alt="Chocolate Love Earth"</b></p>
 </body>
 </html>" > /var/www/html/index.html
 # start apache server
@@ -320,4 +320,4 @@ Successfully created load balancer!
 
 50. Show Attributes----> Load balancing algorithm------>Round robin
 
-51. Change the "Roud robin" to "Least outstanding requests"
+51. Change the "Round robin" to "Least outstanding requests"
